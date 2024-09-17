@@ -3,10 +3,7 @@ let contactDOM = document.getElementsByTagName('a')[1];
 let aboutDOM = document.getElementsByTagName('a')[2];
 
 let contentDOM = document.getElementById('content'); 
-
-
 fetchPage('home.html');
-
 
 homeDOM.addEventListener('click', (event) => {
     event.preventDefault(); 
