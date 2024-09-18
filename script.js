@@ -1,6 +1,7 @@
 let homeDOM = document.getElementsByTagName('a')[0];
-let contactDOM = document.getElementsByTagName('a')[1];
-let aboutDOM = document.getElementsByTagName('a')[2];
+let aboutDOM = document.getElementsByTagName('a')[1];
+let contactDOM = document.getElementsByTagName('a')[2];
+
 
 let contentDOM = document.getElementById('content'); 
 fetchPage('home.html');
