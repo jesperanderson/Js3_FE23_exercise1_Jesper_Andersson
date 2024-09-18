@@ -8,19 +8,19 @@ fetchPage('home.html');
 
 homeDOM.addEventListener('click', (event) => {
     event.preventDefault(); 
-    history.pushState({ page: 'home' }, "", "/home");
+    history.pushState({ page: 'home' }, "", "/home.html");
     fetchPage('home.html');
 });
 
 aboutDOM.addEventListener('click', (event) => {
     event.preventDefault();
-    history.pushState({ page: 'about' }, "", "/about");
+    history.pushState({ page: 'about' }, "", "/about.html");
     fetchPage('about.html');
 });
 
 contactDOM.addEventListener('click', (event) => {
     event.preventDefault();
-    history.pushState({ page: 'contact' }, "", "/contact");
+    history.pushState({ page: 'contact' }, "", "/contact.html");
     fetchPage('contact.html');
 });
 

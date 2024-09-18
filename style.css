@@ -32,3 +32,12 @@ footer {
     width: 100%;
 }
 
+.fa-brands{
+    color: #bb1b1b;
+    font-size: 25px;
+}
+
+.fa-brands:hover{
+    color: #fa0404;
+    font-size: 25px;
+}
